@@ -44,8 +44,10 @@ button {
   transform: translateY(25px);
   padding: 10px;
   border-radius: 50%;
-  box-shadow: 1px 1px 20px 1px var(--Neon_Green);
   cursor: pointer;
+}
+button:hover{
+box-shadow: 1px 1px 20px 1px var(--Neon_Green);
 }
 img {
   width: 90%;
